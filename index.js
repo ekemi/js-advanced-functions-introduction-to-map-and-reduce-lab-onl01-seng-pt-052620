@@ -53,10 +53,3 @@ const reduceToAnyTrue = function(arry) {
 function checked(r){
   return r ? true: false;
 }
-
-const reduceToAnyTrue = function(arry) {
-  return arry.every(checked);
-}
-function checked(r){
-  return r ===true;
-}
