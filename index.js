@@ -15,3 +15,11 @@ const mapToNoChange = function(arr){
   })
   return emptyArr;
 }
+const mapToDouble = function(arr){
+  let emptyArr = []
+  arr.forEach(ar=>{
+      emptyArr.push(ar*ar);
+
+  })
+  return emptyArr;
+}
