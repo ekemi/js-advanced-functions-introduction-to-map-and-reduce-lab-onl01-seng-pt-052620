@@ -2,7 +2,7 @@
 const mapToNegativize = function(arr){
    let emptyArr = []
    arr.forEach(ar=>{
-       em.push(ar*-1);
+       emptyArr.push(ar*-1);
 
    })
    return emptyArr;
