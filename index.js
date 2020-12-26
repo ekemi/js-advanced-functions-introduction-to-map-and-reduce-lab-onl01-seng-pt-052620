@@ -44,5 +44,5 @@ const reduceToAllTrue = function(arry) {
   return arry.every(checked)
 }
 function checked(r){
-  r === true
+  return r === true;
 }
