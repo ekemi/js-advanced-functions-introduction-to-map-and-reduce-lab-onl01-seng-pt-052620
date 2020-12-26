@@ -31,7 +31,7 @@ const mapToSquare = function(arr){
   })
   return emptyArr;
 }
-const reduceToTotal = function(arr,t){
+const reduceToTotal = function(arr,t=0){
 let em = []
 arr.forEach(ar=>{
 em.push(ar+ar);
