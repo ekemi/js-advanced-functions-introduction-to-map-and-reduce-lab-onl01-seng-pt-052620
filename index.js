@@ -39,3 +39,10 @@ em.push(ar+ar);
 })
 return em[arr.length-1]+t;
 }
+
+const reduceToAllTrue = function(arry) {
+  return arry.every(checked)
+}
+function checked(r){
+  r === true
+}
