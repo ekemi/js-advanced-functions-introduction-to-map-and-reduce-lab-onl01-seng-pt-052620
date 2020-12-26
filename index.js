@@ -48,7 +48,7 @@ function checked(r){
 }
 
 const reduceToAnyTrue = function(arry) {
-  return arry.every(checked);
+  return arry.some(checked);
 }
 function checked(r){
   return r ? true: false;
