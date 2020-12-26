@@ -18,7 +18,7 @@ const mapToNoChange = function(arr){
 const mapToDouble = function(arr){
   let emptyArr = []
   arr.forEach(ar=>{
-      emptyArr.push(ar*ar);
+      emptyArr.push(ar*2);
 
   })
   return emptyArr;
