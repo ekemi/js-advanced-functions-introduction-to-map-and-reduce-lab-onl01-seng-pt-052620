@@ -31,3 +31,11 @@ const mapToSquare = function(arr){
   })
   return emptyArr;
 }
+const reduceToTotal = function(arr){
+let em = []
+arr.forEach(ar=>{
+em.push(ar+ar);
+
+})
+return em[arr.length-1]+100;
+}
